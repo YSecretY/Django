@@ -1,0 +1,28 @@
+.article {
+    width: 15%;
+    height: 25vh;
+    background-color: #CD853F;
+    text-align: center;
+    color: #FFFAF0;
+    margin: auto;
+    border-radius: 15%;
+}
+
+.article:hover {
+    transition: .2s;
+    transform:scale(1.10);
+}
+
+.article h3 {
+    margin-top: 15px;
+}
+
+.article .logo {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+}

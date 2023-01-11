@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    About us
+{% endblock %}
+
+{% block content %}
+    <div class="about">
+        <h1 style = "color: black">About us</h1>
+        <p style = "color: black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem, ipsum praesentium iste itaque quos nisi deserunt repellendus dolor vero sint amet assumenda cum alias iusto ullam animi earum eveniet?</p>
+        <a href="{% url 'contacts' %}" class="btn">Our contacts</a>
+    </div>
+{% endblock %}

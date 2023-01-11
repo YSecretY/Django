@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}
+    News
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        {% for el in news %}
+                <div class = "article">
+                    <h3>{{ el.title }}</h3>
+                    <p>{{ el.intro }}</p>
+                    <a class="btn btn-warning" href="{% url 'news-detail' el.id %}">Read with details</a>
+                </div>
+        {% endfor %}
+    </div>
+{% endblock %}

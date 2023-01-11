@@ -1,0 +1,10 @@
+.features {
+    width: 50vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.features h1 {
+    margin-bottom: 20px;
+}

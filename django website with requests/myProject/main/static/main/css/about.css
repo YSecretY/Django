@@ -1,0 +1,19 @@
+.about {
+    width: 75vh;
+    margin: auto;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about .btn {
+    padding: 15px;
+    background-color: #A9A9A9;
+}
+
+.about .btn:hover {
+    transition: .2s;
+    transform: scale(1.15);
+    color: #FFFAF0;
+    background-color: #2F4F4F;
+}
